@@ -1,0 +1,117 @@
+body {
+    margin: auto;
+    font-size: 18px;
+    line-height: 2em;
+    max-width: 600px;
+    color: slate;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    padding-left: 75px;
+}
+
+h1,
+h2 {
+    font-weight: 800;
+}
+
+blockquote {
+    padding-left: 10px;
+    font-weight: 200;
+    font-style: italic;
+    border-left: lightgray solid;
+}
+
+div {
+    display: block;
+    margin: auto;
+    padding: 25px 0;
+}
+
+img {
+    max-width: 250px;
+    width: 80%;
+}
+
+hr {
+    width: 95%;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 14px;
+}
+
+input {
+    margin-left: 3em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.right {
+    margin-right: 50px;
+    text-align: right;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    padding: 10px 25px;
+}
+
+.space {
+    margin-bottom: 25px;
+}
+
+/* ########## Responsive Section ########## */
+
+@media screen and (min-width: 750px) {
+    .big {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    body {
+        line-height: 1.2em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+
+    img {
+        width: 70%;
+    }
+}
